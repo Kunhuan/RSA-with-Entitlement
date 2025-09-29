@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+env/
+ENV/
+.venv/
+.env/
+backup_copy/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# 大文件数据（用户需要自己下载）
+data/*.parquet
+data/*.json
+data/*.csv
+data/wget-log
+
+# 生成的结果文件（运行时生成）
+results/extracted_u/*.csv
+results/extracted_u/*.json
+results/embedding_u/*.npy
+results/embedding_u/*.json
+results/cluster/*.pkl
+results/cluster/*.npy
+results/cluster/*.csv
+results/rsa/*.csv
+results/rsae/*.csv
+cost/results/*.csv
+results/dynamicornot/*.csv
+results/comparison_plots/*.png
+results/*.csv
+plot_model_comparison.py
+
+# 模型缓存
+.cache/
+*.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 临时文件
+*.tmp
+*.temp
+*.log RSA-with-Entitlement/
+RSA-with-Entitlement/
+
+backup_copy/
+backup/
